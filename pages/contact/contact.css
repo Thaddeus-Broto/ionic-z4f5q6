@@ -32,4 +32,12 @@ background-color: antiquewhite
 
 }
 
+.name {
+  color: forestgreen;
+   font-size: 20px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
 
