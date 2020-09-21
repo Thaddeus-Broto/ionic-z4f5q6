@@ -20,7 +20,7 @@ export class AboutPage {
 compute() {
   this.markdownSavings = this.origPrice - this.sellPrice;
   this.markdownRate = (this.markdownSavings / this.sellPrice) * 100;
-
 }
 
 }
+

@@ -1,0 +1,34 @@
+ion-content {
+ background: linear-gradient(to bottom, #fdc830, #f37335);
+}
+
+h2 {
+  color:black;
+  font-size: 35px;
+  text-align:center;
+}
+
+p{
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'Georgia', Arial, Helvetica, sans-serif, monospace;
+}
+
+ion-item {
+background-color: antiquewhite
+}
+
+.logo {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 250px;
+
+}

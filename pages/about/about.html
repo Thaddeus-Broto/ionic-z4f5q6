@@ -16,14 +16,14 @@ the original retail price and the actual selling price. </p>
 <br>
 
 <ion-item>
-  <ion-label> Original Price </ion-label>
+  <ion-label> Original Price: </ion-label>
   <ion-input type="number" [(ngModel)]="origPrice"> </ion-input>
 </ion-item>
 
 <br>
 
 <ion-item>
-  <ion-label> Selling Price </ion-label>
+  <ion-label> Selling Price: </ion-label>
   <ion-input type="number" [(ngModel)]="sellPrice"> </ion-input>
 </ion-item>
 
@@ -31,12 +31,13 @@ the original retail price and the actual selling price. </p>
 <button ion-button color="Primary" (click)="compute()"> Compute </button>
 
 <ion-item> 
-  <h3> Savings PHP {{markdownSavings}} </h3>
+  <h3> Savings Php: {{markdownSavings}} </h3>
 </ion-item>
 
 <br>
 <ion-item> 
-  <h3> Markdown Rate (%) {{markdownRate}} </h3>
+  <h3> Markdown Rate (%): {{markdownRate}} </h3>
 </ion-item>
 
 </ion-content>
+
